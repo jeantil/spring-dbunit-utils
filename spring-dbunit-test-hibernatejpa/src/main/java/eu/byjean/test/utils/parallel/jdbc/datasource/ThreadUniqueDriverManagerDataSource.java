@@ -31,7 +31,7 @@ import org.springframework.jdbc.datasource.DriverManagerDataSource;
  * Custom DriverManagerDataSource implementation which returns a thread 
  * unique url.
  * 
- * @author <a href="mailto:jean.helou@gmail.com">Jean Helou</a>"
+ * @author Jean Helou - <a href="http://twitter.com/jeanhelou">@jeanhelou</a>
  */
 public class ThreadUniqueDriverManagerDataSource extends
 		DriverManagerDataSource {

@@ -28,7 +28,7 @@ package eu.byjean.model;
 import javax.persistence.*;
 
 /**
- * Date: 24/11/11
+ * @author Jean Helou - <a href="http://twitter.com/jeanhelou">@jeanhelou</a>
  */
 @Entity
 @Table(name="entity2")

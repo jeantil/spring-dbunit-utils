@@ -26,7 +26,9 @@
 package eu.byjean.model;
 
 import javax.persistence.*;
-
+/**
+ * @author Jean Helou - <a href="http://twitter.com/jeanhelou">@jeanhelou</a>
+ */
 @Entity
 @Table(name="entity1")
 public class Entity1 {

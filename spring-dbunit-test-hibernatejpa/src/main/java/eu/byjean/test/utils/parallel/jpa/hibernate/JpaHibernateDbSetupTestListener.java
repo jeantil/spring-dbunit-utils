@@ -38,7 +38,7 @@ import java.util.Map;
  * database schema configure for each EntityManagerFactory instance of the
  * current Spring context before the test class is executed.
  *
- * @author "Jean Helou <jean.helou@gmail.com>"
+ * @author Jean Helou - <a href="http://twitter.com/jeanhelou">@jeanhelou</a>
  */
 public class JpaHibernateDbSetupTestListener extends AbstractTestExecutionListener {
 

@@ -35,7 +35,7 @@ import javax.persistence.spi.PersistenceProvider;
  * {@link org.hibernate.ejb.HibernatePersistence} allowing for memoization
  * of init parameters.
  *
- * @author "Jean Helou <jean.helou@gmail.com>"
+ * @author Jean Helou - <a href="http://twitter.com/jeanhelou">@jeanhelou</a>
  */
 public class HibernateJpaVendorParallelAdapter extends HibernateJpaVendorAdapter {
   private final PersistenceProvider persistenceProvider = new CachingHibernatePersistence();

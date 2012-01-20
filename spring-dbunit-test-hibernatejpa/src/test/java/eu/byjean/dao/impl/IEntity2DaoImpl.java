@@ -30,7 +30,9 @@ import eu.byjean.model.Entity2;
 import org.hibernate.Query;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
-
+/**
+ * @author Jean Helou - <a href="http://twitter.com/jeanhelou">@jeanhelou</a>
+ */
 @Repository
 @Transactional
 public class IEntity2DaoImpl extends AbstractDao<Entity2, Long> implements IEntity2Dao {

@@ -34,6 +34,14 @@ import javax.persistence.PersistenceContext;
 import java.io.Serializable;
 import java.lang.reflect.ParameterizedType;
 
+/**
+ * A classic generic DAO implementation
+ *
+ * @param <T> an entity type
+ * @param <ID> the ID type associated to T, must be serializable
+ *
+ * @author Jean Helou - <a href="http://twitter.com/jeanhelou">@jeanhelou</a>
+ */
 public abstract class AbstractDao<T, ID extends Serializable> implements Dao {
 
   private final Class<T> persistentClass;

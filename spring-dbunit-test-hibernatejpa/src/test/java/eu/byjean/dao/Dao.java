@@ -24,6 +24,10 @@
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */package eu.byjean.dao;
 
+/**
+ * Marker interface for DAOs
+ * @author Jean Helou - <a href="http://twitter.com/jeanhelou">@jeanhelou</a>
+ */
 public interface Dao {
 
 }

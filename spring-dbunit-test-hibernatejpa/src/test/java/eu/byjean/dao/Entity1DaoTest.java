@@ -42,7 +42,10 @@ import org.springframework.test.context.support.DependencyInjectionTestExecution
 import static junit.framework.Assert.assertNull;
 import static org.junit.Assert.assertNotNull;
 
-
+/**
+ * Test of DAO implementation for entity2
+ * @author Jean Helou - <a href="http://twitter.com/jeanhelou">@jeanhelou</a>
+ */
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration({ "applicationContext-test.xml","applicationContext-test-hsqldb.xml"})
 @TestExecutionListeners({DependencyInjectionTestExecutionListener.class,JpaHibernateDbSetupTestListener.class, DataSetTestExecutionListener.class})

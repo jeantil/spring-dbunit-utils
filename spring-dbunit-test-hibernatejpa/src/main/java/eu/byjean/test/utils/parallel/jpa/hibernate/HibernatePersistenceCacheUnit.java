@@ -44,7 +44,7 @@ import java.util.Map;
  *  <li>The Hibernate sessionFactoty ( org.hibernate.SessionFactory )</li>
  * </ul>
  *
- * @author "Jean Helou <jean.helou@gmail.com>"
+ * @author Jean Helou - <a href="http://twitter.com/jeanhelou">@jeanhelou</a>
  */
 public class HibernatePersistenceCacheUnit {
 

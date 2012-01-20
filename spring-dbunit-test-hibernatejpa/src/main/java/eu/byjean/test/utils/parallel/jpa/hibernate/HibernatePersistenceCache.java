@@ -33,7 +33,7 @@ import java.util.Map;
 /**
  * Basic hashmap-based cache implementation for {@link HibernatePersistenceCacheUnit} indexed by name
  *
- * @author "Jean Helou <jean.helou@gmail.com>"
+ * @author Jean Helou - <a href="http://twitter.com/jeanhelou">@jeanhelou</a>
  */
 public class HibernatePersistenceCache {
 

@@ -36,7 +36,7 @@ import java.util.Map;
  * Hibernate EJB3 persistence provider implementation capturing settings and
  * configuration in a cache unit.
  *
- * @author "Jean Helou <jean.helou@gmail.com>"
+ * @author Jean Helou - <a href="http://twitter.com/jeanhelou">@jeanhelou</a>
  */
 public class CachingHibernatePersistence extends HibernatePersistence {
 

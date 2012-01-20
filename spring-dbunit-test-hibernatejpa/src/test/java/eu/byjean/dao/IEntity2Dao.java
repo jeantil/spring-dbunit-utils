@@ -26,7 +26,9 @@
 package eu.byjean.dao;
 
 import eu.byjean.model.Entity2;
-
+/**
+ * @author Jean Helou - <a href="http://twitter.com/jeanhelou">@jeanhelou</a>
+ */
 public interface IEntity2Dao {
     public Entity2 findByName(String address);
 }
