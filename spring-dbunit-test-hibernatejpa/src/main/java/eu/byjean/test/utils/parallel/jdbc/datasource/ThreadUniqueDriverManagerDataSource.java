@@ -28,8 +28,10 @@ package eu.byjean.test.utils.parallel.jdbc.datasource;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
 
 /**
- * A
- * @author "Jean Helou <jean.helou@gmail.com>"
+ * Custom DriverManagerDataSource implementation which returns a thread 
+ * unique url.
+ * 
+ * @author <a href="mailto:jean.helou@gmail.com">Jean Helou</a>"
  */
 public class ThreadUniqueDriverManagerDataSource extends
 		DriverManagerDataSource {
