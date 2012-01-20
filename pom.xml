@@ -1,0 +1,71 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>eu.byjean</groupId>
+    <artifactId>spring-dbunit-utils</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <scm>
+        <connection>scm:git:git://github.com/jeantil/spring-dbunit-utils.git</connection>
+        <developerConnection>scm:git:git@github.com:jeantil/spring-dbunit-utils.git</developerConnection>
+        <url>https://github.com/jeantil/spring-dbunit-utils.git</url>
+    </scm>
+
+    <modules>
+        <module>spring-dbunit-test-hibernatejpa</module>
+    </modules>
+
+    <developers>
+        <developer>
+            <id>jhelou@xebia.fr</id>
+            <name>Jean Helou</name>
+            <organization>Xebia France</organization>
+        </developer>
+    </developers>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <java.version>1.5</java.version>
+        <maven-compiler-plugin.version>2.3.2</maven-compiler-plugin.version>
+        <spring-dbunit.version>1.1.3</spring-dbunit.version>
+        <hibernate.version>3.6.9.Final</hibernate.version>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.excilys.ebi.spring-dbunit</groupId>
+                <artifactId>spring-dbunit</artifactId>
+                <version>${spring-dbunit.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>com.excilys.ebi.spring-dbunit</groupId>
+                <artifactId>spring-dbunit-test</artifactId>
+                <version>${spring-dbunit.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.hibernate</groupId>
+                <artifactId>hibernate-entitymanager</artifactId>
+                <version>${hibernate.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <build>
+        <pluginManagement>
+            <plugins>
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>${maven-compiler-plugin.version}</version>
+                <configuration>
+                    <source>${java.version}</source>
+                    <target>${java.version}</target>
+                </configuration>
+            </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
+</project>
