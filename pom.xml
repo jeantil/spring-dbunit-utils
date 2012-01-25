@@ -13,7 +13,7 @@
     </scm>
 
     <modules>
-        <module>spring-dbunit-test-hibernatejpa</module>
+        <module>spring-dbunit-utils-hibernatejpa</module>
     </modules>
 
     <developers>
